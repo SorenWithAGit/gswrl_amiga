@@ -7,7 +7,7 @@ def main(input_path: Path, base_name: str) -> None:
     for count, filename in enumerate(os.listdir(input_path)):
         if filename.lower().endswith((".png")):
             old_path = os.path.join(input_path, filename)
-            new_name = (str(base_name) + "{:05d}".format(count) + ".png")
+            new_name = (str(base_name) + "{:05d}".format(count + 1) + ".png")
             new_file_path = os.path.join(input_path, new_name)
             print("renamed: " + str(new_name))
             os.rename(old_path, new_file_path)
