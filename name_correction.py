@@ -14,8 +14,8 @@ def main(input_path: Path, base_name: str) -> None:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(prog = "name_image.py", 
-                                    description = "Collect and Rename image files")
+    parser = argparse.ArgumentParser(prog = "name_correction.py", 
+                                    description = "Correct names for image files")
     parser.add_argument("--input_path",
                           type = Path,
                           required = True,
