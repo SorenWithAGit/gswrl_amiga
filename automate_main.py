@@ -43,7 +43,7 @@ if __name__ == "__main__":
                         required = True, 
                         help = "Path to bin folder"
     )
-    parser.add_argument("--out_path",
+    parser.add_argument("--output_path",
                         type = Path,
                         required = True,
                         help = "Path output pngs will be stored"
