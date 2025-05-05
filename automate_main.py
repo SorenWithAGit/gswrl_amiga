@@ -1,3 +1,12 @@
+#######################################################################
+"""
+automate_main.py
+Module as named will automate main.py within the file_converter repo.
+Accepts an --input_path and --output_path as arguments. 
+Will open all binaries and create the .png files of each event.
+"""
+#######################################################################
+
 import glob
 import os 
 import argparse

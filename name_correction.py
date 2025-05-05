@@ -1,3 +1,16 @@
+#######################################################################
+"""
+name_correction.py
+Module for renaming all images within a directory collected by 
+name_images.py. 
+Accepts 2 arguments: --input_path, --base_name
+--input_path is the directory for files to be renamed.
+--base_name consists of a string that will be passed through the file
+name before the counter.
+"""
+#######################################################################
+
+
 import os
 import argparse
 from pathlib import Path
